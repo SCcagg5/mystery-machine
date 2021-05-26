@@ -10,5 +10,6 @@ Launch using:
 
 From inside each exercice folder 
   ```bash 
-  python3.7 *.py `cat args`
+  python3 *.py `cat args`
   ```
+  */!\ be sure to have python3.7+ installed*
