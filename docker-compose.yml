@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  back:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    container_name: mystery-machine
+    tty: true
+    volumes:
+      - ./:/home/project:ro
