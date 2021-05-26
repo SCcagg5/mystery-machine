@@ -1,7 +1,7 @@
 
 ```bash
-docker-compose up -d; 
-sleep 3; 
+docker-compose up -d
+sleep 3
 docker logs mystery-machine
 ```
 
