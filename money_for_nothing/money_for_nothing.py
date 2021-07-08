@@ -2,15 +2,9 @@ import sys
 import json
 
 class Money_for_nothing:
-    def __init__(self, file):
-        self.file = file
-        self.data = None
+    def __init__(self, data):
+        self.data = json.loads(data)
         self.achat_vente = []
-
-    def read(self):
-        f = open(self.file)
-        self.data = json.load(f)
-        f.close()
 
     def main(self):
         index = 1
@@ -35,5 +29,4 @@ if __name__ == "__main__":
     if len(sys.argv) != 2:
         exit()
     project = Money_for_nothing(sys.argv[1])
-    project.read()
     print(project.main())

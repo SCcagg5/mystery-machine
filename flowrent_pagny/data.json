@@ -1,0 +1,11 @@
+[
+ {
+  "id": 0,
+  "task_type": "primitive"
+ },
+ {
+  "id": 1,
+  "tasks": [0],
+  "task_type": "workflow"
+ }
+]
